@@ -1,0 +1,11 @@
+@import url('./_font/intro__list_font_bold.css');
+@import url('./_font/intro__list_font_normal.css');
+
+.intro__list {
+  list-style: none;
+  margin: 0;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0px;
+}

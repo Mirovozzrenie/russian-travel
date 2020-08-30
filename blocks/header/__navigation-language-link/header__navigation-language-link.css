@@ -1,0 +1,38 @@
+.header__navigation-language-link {
+  font-family: 'Inter', 'Arial', sans-serif;
+  margin-bottom: 6px;
+  margin-top: 18px;
+}
+
+.header__navigation-language-link:nth-child(n) {
+  margin-right: 18px;
+}
+
+.header__navigation-language-link:last-child {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 321px) and (max-width: 763px) {
+  .header__navigation-language-link {
+    font-size: 18px;
+    line-height: 133%;
+    margin-bottom: 4px;
+    margin-top: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__navigation-language-link {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 4px;
+    margin-top: 14px;
+  }
+}
+
+@media screen and (min-width: 764px) {
+  .header__navigation-language-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,42 @@
+@import url(../header/__logo/header__logo.css);
+@import url(../header/__navigation-language-links/header__navigation-language-links.css);
+@import url(../header/__navigation-language-link/header__navigation-language-link.css);
+
+
+.header {
+  min-height: 52px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1184px;
+  min-width: 288px;
+}
+
+@media screen and (max-width: 1280px) {
+  .header {
+    margin: 28px 48px 64px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin: 28px 48px 56px;
+  }
+}
+
+@media screen and (min-width: 764px) and (max-width: 1023px) {
+  .header {
+    margin: 28px 24px 48px;
+  }
+}
+
+@media screen and (max-width: 763px) {
+  .header {
+    margin: 16px 16px 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 16px 16px 34px;
+  }
+}
