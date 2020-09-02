@@ -1,0 +1,20 @@
+.footer__navigation-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 18px;
+  margin-right: 18px;
+  transition: opacity 0.5s ease-in;
+}
+
+@media screen and (max-width:700px) {
+  .footer__navigation-link {
+    font-size: 24px;
+    line-height: 24px;
+  }
+} 
+
+.footer__navigation-link:hover {
+  opacity: 0.3;
+}
