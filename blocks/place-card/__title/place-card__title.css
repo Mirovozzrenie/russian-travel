@@ -1,0 +1,29 @@
+.place-card__title {
+  font-family: Inter;
+  color: #fff;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+@media screen and (max-width: 900px) {
+  .place-card__title {
+    font-size: max(42px, min(4vw, 72px));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place-card__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .place-card__title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    margin-left: 15px;
+  }
+}

@@ -1,0 +1,8 @@
+.place-card__image {
+  width: 100%;
+} 
+@media screen and (max-width: 700px) {
+  .place-card__image {
+    margin-top: 32px;
+  }
+}

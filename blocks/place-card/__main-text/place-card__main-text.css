@@ -1,0 +1,26 @@
+.place-card__main-text {
+  color: #fff;
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  margin-top: 24px;
+}
+
+.place-card__main-text:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place-card__main-text {
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .place-card__main-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
