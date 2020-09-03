@@ -18,6 +18,7 @@
 .place-card:first-child {
   margin-top: 0;
 }
+
 .place-card:last-child {
   margin-bottom: 0;
 }
@@ -52,19 +53,19 @@
     margin-top: 75px;
   }
 }
-  @media screen and (max-width: 760px) {
-    .place-card {
-      margin-bottom: 50px;
-    }
-  }
 
-  .place-card:first-child .place-card__title {
-    max-width: 253px;
+@media screen and (max-width: 760px) {
+  .place-card {
+    margin-bottom: 50px;
   }
+}
 
-  .place-card:last-child .place-card__paragraph {
-    margin-bottom: 0;
-  }
+.place-card:first-child .place-card__title {
+  max-width: 253px;
+}
+
+.place-card:last-child .place-card__paragraph {
+  margin-bottom: 0;
 }
 
 

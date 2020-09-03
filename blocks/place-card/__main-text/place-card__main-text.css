@@ -5,6 +5,7 @@
   font-size: 18px;
   line-height: 29px;
   margin-top: 24px;
+  margin-bottom: 0;
 }
 
 .place-card__main-text:first-child {
@@ -20,7 +21,6 @@
 
 @media screen and (max-width: 760px) {
   .place-card__main-text {
-    font-size: 16px;
     line-height: 26px;
   }
 }
