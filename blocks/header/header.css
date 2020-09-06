@@ -2,7 +2,7 @@
 @import url(./../header/__navigation-language-links/header__navigation-language-links.css);
 @import url(./../header/__navigation-language-link/header__navigation-language-link.css);
 @import url('./__language-link/header__language-link.css');
-@import url('./__language-link/__language-link_status_active/header__language-link_status_active.css');
+@import url('./__language-link/_status/header__language-link_status_active.css');
 
 .header {
   min-height: 52px;

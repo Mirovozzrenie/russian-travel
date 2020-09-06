@@ -60,15 +60,6 @@
   }
 }
 
-.place-card:first-child .place-card__title {
-  max-width: 253px;
-}
-
-.place-card:last-child .place-card__paragraph {
-  margin-bottom: 0;
-}
-
-
 @media screen and (max-width: 767px) {
   .place-card {
     grid-template-columns: minmax(320px, 340px) minmax(288px, 352px);
